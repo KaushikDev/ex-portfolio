@@ -7,6 +7,8 @@
     --imp-text-color : #222;
     --background-color: #eee;
     --special-background-color: #000;
+    --tile-border-color: #000;
+    --hr-color: #000;
   }
 
 *{
@@ -95,6 +97,7 @@
 hr{
     margin: 2% 20% 2% 20%;
     background: var(--background-color);
+    border: 1px var(--hr-color) solid;
 }
 
 #welcome-sub-heading{
@@ -125,7 +128,7 @@ hr{
 /* =================welcome section css ends===================*/
 /* =================projects section css begins===================*/
 
-    #projects-section{
+    #projects{
         height: auto;
         text-align: center;
         background: var(--background-color);
@@ -152,7 +155,9 @@ hr{
     .project-tile{
         background: #fff;
         text-decoration: none;
-        border: 1px white solid;
+        border: 1px var(--tile-border-color) solid;
+        vertical-align: middle;
+        background: var(--special-background-color);
     }
 
     .project-back-img{
@@ -162,11 +167,10 @@ hr{
     }
 
     .project-title{
-        height: 20%;
+        height: auto;
         font-size: 1.5em;
         color: var(--special-text-color);
         text-shadow: none;
-        background: var(--special-background-color);
     }
 
     #show-more{
@@ -220,35 +224,35 @@ hr{
      .fa-github:hover, .fa-codepen:hover{
          color: #000;
          animation-name: swing;
-         animation-duration: 2s;
+         animation-duration: 5s;
          animation-iteration-count: infinite;
     }
 
      .fa-linkedin-in:hover{
          color:#0e76a8;
          animation-name: beat;
-         animation-duration: 2s;
+         animation-duration: 5s;
          animation-iteration-count: infinite;
      }
 
      .fa-free-code-camp:hover{
         color:#006000;
         animation-name: beat;
-        animation-duration: 2s;
+        animation-duration: 5s;
         animation-iteration-count: infinite;
     }
 
      .fa-twitter:hover{
         color:#00acee;
         animation-name: chirp;
-        animation-duration: 2s;
+        animation-duration: 5s;
         animation-iteration-count: infinite;
     }
 
     .fa-envelope:hover{
         color:#000;
         animation-name: rotatex;
-        animation-duration: 2s;
+        animation-duration: 5s;
         animation-iteration-count: infinite;
     }
 
@@ -320,7 +324,7 @@ hr{
 
 @keyframes navimation{
     50%{
-        transform: scale(1.5);
+        transform: scale(0.9);
     }
     
 }
@@ -395,6 +399,7 @@ hr{
 hr{
     margin: 10% 20% 10% 20%;
     background: var(--background-color);
+    border: 1px var(--hr-color) solid;
 }
 
 #welcome-sub-heading{
@@ -425,7 +430,7 @@ hr{
 /* =================welcome section css ends===================*/
 /* =================projects section css begins===================*/
 
-    #projects-section{
+    #projects{
         height: auto;
         text-align: center;
         background: var(--background-color);
@@ -452,7 +457,8 @@ hr{
         max-width: 100%;
         background: #fff;
         text-decoration: none;
-        border: 1px white solid;
+        border: 1px var(--tile-border-color) solid;
+        background: var(--special-background-color);
     }
 
     .project-back-img{
@@ -462,11 +468,11 @@ hr{
     }
 
     .project-title{
-        height: 20%;
+        height: auto;
         font-size: 1.5em;
         color: var(--special-text-color);
         text-shadow: none;
-        background: var(--special-background-color);
+        
     }
 
     #show-more{
@@ -517,35 +523,35 @@ hr{
      .fa-github, .fa-codepen{
          color: #000;
          animation-name: swing;
-         animation-duration: 2s;
+         animation-duration: 5s;
          animation-iteration-count: infinite;
     }
 
      .fa-linkedin-in{
          color:#0e76a8;
          animation-name: beat;
-         animation-duration: 2s;
+         animation-duration: 5s;
          animation-iteration-count: infinite;
      }
 
      .fa-free-code-camp{
         color:#006000;
         animation-name: beat;
-        animation-duration: 2s;
+        animation-duration: 5s;
         animation-iteration-count: infinite;
     }
 
      .fa-twitter{
         color:#00acee;
         animation-name: chirp;
-        animation-duration: 2s;
+        animation-duration: 5s;
         animation-iteration-count: infinite;
     }
 
     .fa-envelope{
         color:#000;
         animation-name: rotatex;
-        animation-duration: 2s;
+        animation-duration: 5s;
         animation-iteration-count: infinite;
     }
 
@@ -650,6 +656,7 @@ hr{
 hr{
     margin: 2% 20% 2% 20%;
     background: var(--background-color);
+    border: 1px var(--hr-color) solid;
 }
 
 #welcome-sub-heading{
@@ -679,7 +686,7 @@ hr{
 /* =================welcome section css ends===================*/
 /* =================projects section css begins===================*/
 
-    #projects-section{
+    #projects{
         height: auto;
         text-align: center;
         background: var(--background-color);
@@ -705,7 +712,8 @@ hr{
     .project-tile{
         background: #fff;
         text-decoration: none;
-        border: 1px white solid;
+        border: 1px var(--tile-border-color) solid;
+        background: var(--special-background-color);
     }
 
     .project-back-img{
@@ -715,11 +723,11 @@ hr{
     }
 
     .project-title{
-        height: 20%;
+        height: auto;
         font-size: 1.5em;
         color: var(--special-text-color);
         text-shadow: none;
-        background: var(--special-background-color);
+      
     }
 
     #show-more{
@@ -771,35 +779,35 @@ hr{
      .fa-github:hover, .fa-codepen:hover{
          color: #000;
          animation-name: swing;
-         animation-duration: 2s;
+         animation-duration: 5s;
          animation-iteration-count: infinite;
     }
 
      .fa-linkedin-in:hover{
          color:#0e76a8;
          animation-name: beat;
-         animation-duration: 2s;
+         animation-duration: 5s;
          animation-iteration-count: infinite;
      }
 
      .fa-free-code-camp:hover{
         color:#006000;
         animation-name: beat;
-        animation-duration: 2s;
+        animation-duration: 5s;
         animation-iteration-count: infinite;
     }
 
      .fa-twitter:hover{
         color:#00acee;
         animation-name: chirp;
-        animation-duration: 2s;
+        animation-duration: 5s;
         animation-iteration-count: infinite;
     }
 
     .fa-envelope:hover{
         color:#000;
         animation-name: rotatex;
-        animation-duration: 2s;
+        animation-duration: 5s;
         animation-iteration-count: infinite;
     }
 
