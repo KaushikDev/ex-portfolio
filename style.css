@@ -1,0 +1,825 @@
+:root {
+    --header-color: #fff;
+    --footer-color: #eee;
+    --text-color: #666;
+    --special-text-color: #fff;
+    --text-shadow: 2px 2px 2px #fff;
+    --imp-text-color : #222;
+    --background-color: #eee;
+    --special-background-color: #000;
+  }
+
+*{
+    padding:0;
+    margin:0;
+    color: var(--text-color);
+    font-family: 'Dancing Script', cursive;
+    text-shadow: var(--text-shadow);
+}
+
+/* =================piyush image css begins===================*/
+#piyush-img{
+    position: fixed;
+    float:left;
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    top:0;
+    left:0;
+    box-shadow: 5px 5px 5px gray;
+  }
+
+  #piyush-img:hover{
+     animation-name: text-animation;
+     animation-iteration-count: 1;
+     animation-duration: 1s;
+  }
+
+/* =================piyush image css ends===================*/
+/* =================header section css begins===================*/
+#header-section{
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    background: var(--header-color);
+    color: var(--imp-text-color);
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+#navlinks{
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+ }
+
+.navlink{
+    padding: 30px;
+} 
+
+.navlink:hover{
+    background: var(--background-color);
+    animation-name: navimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.navlink>a{
+    text-decoration: none;
+    font-size: 1.2em;
+}
+/* =================header section css ends===================*/
+/* =================welcome section css begins===================*/
+
+#welcome-section{
+    margin-top: 100px;
+    height: 100vh;
+    text-align: center;
+    background: var(--background-color);
+}
+
+#welcome-heading{
+  padding-top: 10vh;
+  font-size: 5em;
+  font-family: 'Tangerine', cursive;
+  color: var(--imp-text-color);
+}
+
+hr{
+    margin: 2% 20% 2% 20%;
+    background: var(--background-color);
+}
+
+#welcome-sub-heading{
+   font-size: 3em;
+ }
+
+#skill-set{
+    margin: 5vh;
+    display: flex;
+    background: var(--background-color);
+    font-size: 6em;
+    align-items: center;
+    justify-content: center;
+ }
+
+ #skill-set>i{
+     margin: 5vw;
+ }
+
+ .fa-html5:hover, .fa-js-square:hover, .fa-css3-alt:hover{
+    color:black;
+    animation-name: skillset;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+ }
+
+
+/* =================welcome section css ends===================*/
+/* =================projects section css begins===================*/
+
+    #projects-section{
+        height: auto;
+        text-align: center;
+        background: var(--background-color);
+    }
+
+    #projects-heading{
+       padding: 5vh;
+       font-size: 3.5em;
+       font-family: 'Dancing Script', cursive;
+       color: var(--imp-text-color);
+    }
+
+
+    #grid-container{
+        display: grid;
+        width: 100%;
+        height: auto;
+        grid-template-columns: repeat(4, 300px);
+        grid-template-rows: repeat(2, 250px);
+        grid-gap: 10px;
+       justify-content: center;
+    }
+
+    .project-tile{
+        background: #fff;
+        text-decoration: none;
+        border: 1px white solid;
+    }
+
+    .project-back-img{
+        width: 100%;
+        height: 80%;
+        object-fit: cover;
+    }
+
+    .project-title{
+        height: 20%;
+        font-size: 1.5em;
+        color: var(--special-text-color);
+        text-shadow: none;
+        background: var(--special-background-color);
+    }
+
+    #show-more{
+        margin-top: 25px;
+        width: 100px;
+        height: 50px;   
+        cursor: pointer;
+        font-size: 1em;
+        background: black;
+        color: var(--special-text-color);
+        text-shadow: none;
+        background: var(--special-background-color);
+    }
+/* =================projects section css ends===================*/
+/* =================contacts section css begins===================*/
+
+    #contact-section{
+        height: auto;
+        text-align: center;
+        background: var(--background-color);
+    }
+
+    #contact-heading{
+        padding: 5vh;
+        font-size: 3.5em;
+        color: var(--imp-text-color);
+     }
+
+     #social-media{
+        display: flex;
+        font-size: 5em;
+        align-items: center;
+        justify-content: center;
+        
+     }
+
+     span{
+         font-size: 0.2em;
+         vertical-align: middle;
+         margin: 20px;
+         color:#000;
+     }
+
+     #social-media>a{
+        text-decoration: none;
+        margin: 30px;
+        display: flex;
+        flex-direction: column;
+     }
+
+     .fa-github:hover, .fa-codepen:hover{
+         color: #000;
+         animation-name: swing;
+         animation-duration: 2s;
+         animation-iteration-count: infinite;
+    }
+
+     .fa-linkedin-in:hover{
+         color:#0e76a8;
+         animation-name: beat;
+         animation-duration: 2s;
+         animation-iteration-count: infinite;
+     }
+
+     .fa-free-code-camp:hover{
+        color:#006000;
+        animation-name: beat;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+
+     .fa-twitter:hover{
+        color:#00acee;
+        animation-name: chirp;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+
+    .fa-envelope:hover{
+        color:#000;
+        animation-name: rotatex;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+
+/* =================contacts section css ends===================*/
+/* =================footer section css begins===================*/     
+
+
+#footer-section{
+    bottom:0;
+    left:0;
+    width: 100%;
+    max-height: 50px;
+    position: fixed;
+    background: var(--footer-color);
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+    color: var(--imp-text-color);
+}
+
+/* =================footer section css ends===================*/
+/* =================All animations css begins===================*/  
+
+@keyframes text-animation{
+    100%{
+       transform: scale(1.5);
+       top:20px;
+       left:20px;
+    }
+}
+
+
+@keyframes swing{
+     50%{
+        transform: rotate(360deg) scale(1.5);
+    }
+}
+
+@keyframes beat{
+    50%{
+        transform: rotateY(360deg) scale(1.5);
+    }
+    
+}
+
+@keyframes chirp{
+    50%{
+        transform: rotate(30deg) scale(1.5);
+    }
+    100%{
+       transform: rotate(0deg);
+   }
+}
+
+@keyframes rotatex{
+    50%{
+        transform: rotateX(360deg) scale(1.5);
+    }
+    
+}
+
+@keyframes skillset{
+    50%{
+        transform: rotateY(360deg);
+        
+    }
+    
+}
+
+@keyframes navimation{
+    50%{
+        transform: scale(1.5);
+    }
+    
+}
+
+/* =================All animations css ends===================*/
+/* =================Media Queries css begins===================*/  
+
+@media screen and (min-width:250px) and (max-width: 768px){
+/* =================piyush image css begins===================*/
+
+#piyush-img{
+    position: absolute;
+    display: block;
+    max-width:100%;
+    height: auto;
+    top:200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* =================piyush image css ends===================*/
+/* =================header section css begins===================*/
+#header-section{
+    top:0;
+    left:0;
+    width: 100%;
+    max-height: 100px;
+    position: fixed;
+    background: var(--header-color);
+    z-index: 1;
+    color: var(--imp-text-color);
+}
+
+#navbar{
+    display: block;
+   
+}
+
+#navlinks{
+    list-style: none;
+    display: flex;
+    align-items: center;
+   justify-content: space-around;
+}
+
+.navlink{
+    padding: 30px;
+} 
+
+
+
+.navlink>a{
+    text-decoration: none;
+    font-size: 1.2em;
+}
+    /* =================header section css ends===================*/
+/* =================welcome section css begins===================*/
+
+#welcome-section{
+    margin-top: 200px;
+    height: auto;
+    text-align: center;
+    background: var(--background-color);
+}
+
+#welcome-heading{
+  padding-top: 10vh;
+  font-size: 2.5em;
+  color: var(--imp-text-color);
+}
+
+hr{
+    margin: 10% 20% 10% 20%;
+    background: var(--background-color);
+}
+
+#welcome-sub-heading{
+   font-size: 1.5em;
+}
+
+#skill-set{
+    margin: 5vh;
+    display: flex;
+    /* width: 50%; */
+    font-size: 3.5em;
+    align-items: center;
+    justify-content: center;
+    background: var(--background-color);
+ }
+
+ #skill-set>i{
+     margin: 5vw;
+ }
+
+ .fa-html5, .fa-js-square, .fa-css3-alt{
+    color:black;
+    animation-name: skillset;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+ }
+
+/* =================welcome section css ends===================*/
+/* =================projects section css begins===================*/
+
+    #projects-section{
+        height: auto;
+        text-align: center;
+        background: var(--background-color);
+    }
+
+    #projects-heading{
+       padding: 5vh;
+       font-size: 2.5em;
+       color: var(--imp-text-color);
+    }
+
+
+    #grid-container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .project-tile{
+        margin: 10px;
+        max-width: 100%;
+        background: #fff;
+        text-decoration: none;
+        border: 1px white solid;
+    }
+
+    .project-back-img{
+        width: 100%;
+        height: 80%;
+        object-fit: cover;
+    }
+
+    .project-title{
+        height: 20%;
+        font-size: 1.5em;
+        color: var(--special-text-color);
+        text-shadow: none;
+        background: var(--special-background-color);
+    }
+
+    #show-more{
+        margin-top: 25px;
+        width: 100px;
+        height: 5vh;   
+        cursor: pointer;
+        font-size: 1em;
+        background: var(--special-background-color);
+        color: var(--special-text-color);
+        text-shadow: none;
+    }
+/* =================projects section css ends===================*/
+/* =================contacts section css begins===================*/
+
+    #contact-section{
+        height: auto;
+        text-align: center;
+        background: var(--background-color);
+    }
+
+    #contact-heading{
+        padding: 5vh;
+        font-size: 2.5em;
+        color: var(--imp-text-color);
+    }
+
+     #social-media{
+        display: block;
+        max-width: 100%;
+        margin: 25px;
+        font-size: 25px;
+     }
+
+     span{
+         font-size: 12px;
+         vertical-align: middle;
+         margin: 5px;
+     }
+
+     #social-media>a{
+        text-decoration: none;
+        font-size: 25px;
+        display: inline-flex;      
+        flex-direction: column;
+     }
+
+     .fa-github, .fa-codepen{
+         color: #000;
+         animation-name: swing;
+         animation-duration: 2s;
+         animation-iteration-count: infinite;
+    }
+
+     .fa-linkedin-in{
+         color:#0e76a8;
+         animation-name: beat;
+         animation-duration: 2s;
+         animation-iteration-count: infinite;
+     }
+
+     .fa-free-code-camp{
+        color:#006000;
+        animation-name: beat;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+
+     .fa-twitter{
+        color:#00acee;
+        animation-name: chirp;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+
+    .fa-envelope{
+        color:#000;
+        animation-name: rotatex;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+
+/* =================contacts section css ends===================*/
+/* =================footer section css begins===================*/     
+
+
+#footer-section{
+    margin-top: 20px;
+    bottom:0;
+    left:0;
+    width: 100%;
+    max-height: 50px;
+    position: fixed;
+    background: var(--footer-color);
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    color: var(--imp-text-color);
+}
+
+/* =================footer section css ends===================*/
+}
+
+
+@media (min-width:768px) and (max-width: 1240px){
+
+/* =================piyush image css begins===================*/
+#piyush-img{
+    position: fixed;
+    float:left;
+    height:100px;
+    width:100px;
+    border-radius: 50%;
+    top:0;
+    left:0;
+    box-shadow: 5px 5px 5px gray;
+  }
+
+  #piyush-img:hover{
+     animation-name: text-animation;
+     animation-iteration-count: 1;
+     animation-duration: 1s;
+  }
+
+/* =================piyush image css ends===================*/
+/* =================header section css begins===================*/
+#header-section{
+    top:0;
+    left:0;
+    width: 100%;
+    max-height: 100px;
+    position: fixed;
+    background: var(--header-color);
+    color: var(--imp-text-color);
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#navlinks{
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.navlink{
+    padding: 30px;
+} 
+
+.navlink:hover{
+    background: var(--background-color);
+    animation-name: navimation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.navlink>a{
+    text-decoration: none;
+    font-size: 1.2em;
+}
+/* =================header section css ends===================*/
+/* =================welcome section css begins===================*/
+
+#welcome-section{
+    margin-top: 100px;
+    height: 100vh;
+    text-align: center;
+    background: var(--background-color);
+}
+
+#welcome-heading{
+  padding-top: 10vh;
+  font-size: 5em;
+  color: var(--imp-text-color);
+}
+
+hr{
+    margin: 2% 20% 2% 20%;
+    background: var(--background-color);
+}
+
+#welcome-sub-heading{
+   font-size: 3em;
+}
+
+#skill-set{
+    margin: 5vh;
+    display: flex;
+    font-size: 6em;
+    align-items: center;
+    justify-content: center;
+    background: var(--background-color);
+ }
+
+ #skill-set>i{
+     margin: 5vw;
+ }
+
+ .fa-html5:hover, .fa-js-square:hover, .fa-css3-alt:hover{
+    color:black;
+    animation-name: skillset;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+ }
+
+/* =================welcome section css ends===================*/
+/* =================projects section css begins===================*/
+
+    #projects-section{
+        height: auto;
+        text-align: center;
+        background: var(--background-color);
+    }
+
+    #projects-heading{
+       padding: 5vh;
+       font-size: 3.5em;
+       color: var(--imp-text-color);
+    }
+
+
+    #grid-container{
+        display: grid;
+        width: 100%;
+        height: auto;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(4, 250px);
+        grid-gap: 10px;
+       justify-content: center;
+    }
+
+    .project-tile{
+        background: #fff;
+        text-decoration: none;
+        border: 1px white solid;
+    }
+
+    .project-back-img{
+        width: 100%;
+        height: 80%;
+        object-fit: cover;
+    }
+
+    .project-title{
+        height: 20%;
+        font-size: 1.5em;
+        color: var(--special-text-color);
+        text-shadow: none;
+        background: var(--special-background-color);
+    }
+
+    #show-more{
+        margin-top: 25px;
+        width: 100px;
+        height: 50px;   
+        cursor: pointer;
+        font-size: 1em;
+        color: var(--special-text-color);
+        text-shadow: none;
+        background: var(--special-background-color);
+    }
+/* =================projects section css ends===================*/
+/* =================contacts section css begins===================*/
+
+    #contact-section{
+        height: auto;
+        text-align: center;
+        background: var(--background-color);
+    }
+
+    #contact-heading{
+        padding: 5vh;
+        font-size: 3.5em;
+        color: var(--imp-text-color);
+    }
+
+     #social-media{
+        display: flex;
+        font-size: 3em;
+        align-items: center;
+        justify-content: center;
+        
+     }
+
+     span{
+         font-size: 0.2em;
+         vertical-align: middle;
+         margin: 20px;
+     }
+
+     #social-media>a{
+        text-decoration: none;
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+     }
+
+     .fa-github:hover, .fa-codepen:hover{
+         color: #000;
+         animation-name: swing;
+         animation-duration: 2s;
+         animation-iteration-count: infinite;
+    }
+
+     .fa-linkedin-in:hover{
+         color:#0e76a8;
+         animation-name: beat;
+         animation-duration: 2s;
+         animation-iteration-count: infinite;
+     }
+
+     .fa-free-code-camp:hover{
+        color:#006000;
+        animation-name: beat;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+
+     .fa-twitter:hover{
+        color:#00acee;
+        animation-name: chirp;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+
+    .fa-envelope:hover{
+        color:#000;
+        animation-name: rotatex;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+
+/* =================contacts section css ends===================*/
+/* =================footer section css begins===================*/     
+
+
+#footer-section{
+    bottom:0;
+    left:0;
+    width: 100%;
+    max-height: 50px;
+    position: fixed;
+    background: var(--footer-color);
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+    color: var(--imp-text-color);
+}
+
+/* =================footer section css ends===================*/
+    
+}
