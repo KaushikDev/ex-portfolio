@@ -6,13 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/16b76cc9d0.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Tangerine&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body id="top-section">
 
     <header id="header-section">
         <nav id="navbar">
@@ -27,9 +30,6 @@
 
     <img id="piyush-img" src="images/piyush.jpg" alt="piyush-img">
         
-    
-    
-
     <section id="welcome-section">
         <h1 id="welcome-heading"><span>Hi, I'm</span> Piyush Kaushik</h1>
         <hr>
@@ -39,41 +39,155 @@
             <i class="fab fa-js-square"></i>
             <i class="fab fa-css3-alt"></i>
         </div>
-        <h3>"There are 3 things that keeps me going; Coffee, Pizza and Javascript."</h3>
+        <p><em>"There are 3 things that keeps me going; Coffee, Pizza and Javascript."</em></p>
+     </section>
+
+     <section id="about-section">
+         <div class="align-left general">
+                <h2 class="about-headings">Introduction</h2>
+                <p class="about-para">Hey, it is good to meet you. I am Piyush Kaushik and I am the designer and developer of this portfolio website. Based out of Noida, India, I am passionate about learning front-end web development. My definite goal in life is to give back to community in any manner possible and I found web development may actually help me achieve this goal.</p>
+         </div>
+        
+
+        <div class="align-right general">
+            <h2 class="about-headings">Why Web Development</h2>
+            <p class="about-para">With more than 6 years of experience in software testing domain, I always felt like I could contribute more towards development and hence started to pursue my dream goal. I know the road isn't easy, but overcoming challenges is what gives me satisfaction. I strongly believe that there is nothing that you cannot learn and it is never too late to learn. One of my favorite quotations is, "From humble beginnings come great things". You get the idea.</p>
+        </div>
+        
+            
+        <div class="align-left general">
+                <h2 class="about-headings">What have I done so far?</h2>
+                <p class="about-para">I started by learning basics of web development, the big three viz. HTML, CSS and Javascript. I completed <a href="https://www.freecodecamp.org/certification/kaushikdev02/responsive-web-design" target="_blank">Responsive Web Design</a> certification from FCC and <a href="https://www.udemy.com/certificate/UC-7SO9F3X9/" target="_blank">Javascript Basics</a> and <a href="https://www.udemy.com/certificate/UC-OJSZF3C0/" target="_blank">Accelerated ES6 Javascript</a> certifications from Udemy. I am currently doing more FCC certifications and building projects along the way. You're welcome to check out the projects section for projects I've built. I am active on <a href="https://codepen.io/Kaushik02/" target="_blank"><i class="fab fa-codepen"></i></a> and <a id="profile-link" href="https://github.com/KaushikDev/" target="_blank"><i class="fab fa-github"></i></a> and regularly build some fun stuff.</p> 
+        </div>
+       
+        <div class="align-right general">
+                <h2 class="about-headings">Let's work together.</h2>
+                <p class="about-para">If you like my work and would like me to work with you, feel free to drop me an <a href="mailto:piyush.kaushik02@gmail.com?subject=Portfolio-Feedback&body=Hi Piyush,"><i class="far fa-envelope"></i></a> or reach out on my <a href="https://www.linkedin.com/in/piyush-kaushik-61166a22/" target="_blank"><i
+                    class="fab fa-linkedin-in"></i></a> or <a href="https://twitter.com/kaushik_said" target="_blank"><i class="fab fa-twitter"></i></a> profiles.</p>
+        </div>
+        
      </section>
 
 
-    <section id="projects">
-        <h2 id="projects-heading">Projects</h2>
+ 
 
-        <div id="grid-container">
 
-            <a class="project-tile" href="https://kaushikdev.github.io/calculator/" target="_blank">
+    <section id="new-projects-section">
+            <div class="align-left project-room">
+                    <h2 class="project-headings">Animation Projects</h2>
+                    <div class="grid-container">
+                            <a class="project-tile" href="https://kaushikdev.github.io/clearnight" target="_blank">
+                                <img class="project-back-img"
+                                    src="https://www.dropbox.com/s/1dftjgkst77yohz/clearnight-social-preview.PNG?raw=1"
+                                    alt="nightsky-img">
+                                <p class="project-title">Clear Night</p>
+                            </a>
+
+                            <a class="project-tile" href="https://kaushikdev.github.io/sunnyday" target="_blank">
+                                <img class="project-back-img"
+                                    src="https://www.dropbox.com/s/quilxk87vi3i7zj/sunnyday-social-preview.PNG?raw=1"
+                                    alt="sunnyday-img">
+                                <p class="project-title">Sunny Day</p>
+                            </a>
+
+                            <a class="project-tile" href="https://kaushikdev.github.io/snowyday" target="_blank">
+                                <img class="project-back-img"
+                                    src="https://www.dropbox.com/s/r2t85uq7u9ml86r/snowyday-social-preview.PNG?raw=1"
+                                    alt="snowyday-img">
+                                <p class="project-title">Snowy Day</p>
+                            </a>
+                            <a class="project-tile" href="https://kaushikdev.github.io/rainyday" target="_blank">
+                                <img class="project-back-img"
+                                    src="https://www.dropbox.com/s/ita8gktsmq2r5k1/rainyday-social-preview.PNG?raw=1"
+                                    alt="rainyday-img">
+                                <p class="project-title">Rainy Day</p>
+                            </a>
+                        </div>
+                    
+             </div>
+            
+    
+            <div class="align-right project-room">
+                <h2 class="project-headings">Game Projects</h2>
+                <div class="grid-container">
+                        <a class="project-tile" href="https://kaushikdev.github.io/flappybird/" target="_blank">
+                            <img class="project-back-img"
+                                src="https://www.dropbox.com/s/64wujkrr0gw3jp4/flappybird-social-preview.PNG?raw=1"
+                                alt="flappy-img">
+                            <p class="project-title">Flappy Bird</p>
+                        </a>
+
+                        <a class="project-tile" href="https://kaushikdev.github.io/arkanoid/" target="_blank">
+                            <img class="project-back-img"
+                                src="https://www.dropbox.com/s/tjf4xhehaikkkt4/arkanoid-social-preview.PNG?raw=1"
+                                alt="arkanoid-img">
+                            <p class="project-title">Arkanoid</p>
+                        </a>
+
+                        <a class="project-tile" href="https://kaushikdev.github.io/snake/" target="_blank">
+                            <img class="project-back-img"
+                                src="https://www.dropbox.com/s/lazl4wgp4nyx63z/snake-social-preview.PNG?raw=1"
+                                alt="snake-img">
+                            <p class="project-title">Classic Snake</p>
+                        </a>
+                        <a class="project-tile" href="https://kaushikdev.github.io/batcrash/" target="_blank">
+                            <img class="project-back-img"
+                                src="https://www.dropbox.com/s/glo4ookxouxjzej/batcrash-social-preview.PNG?raw=1"
+                                alt="batcrash-img">
+                            <p class="project-title">Bat Crash</p>
+                        </a>
+                    </div>
+            </div>
+
+            <div class="align-left project-room">
+                    <h2 class="project-headings">Utility Projects</h2>
+                    <div class="grid-container">
+                            <a class="project-tile" href="https://kaushikdev.github.io/calculator/" target="_blank">
+                                <img class="project-back-img"
+                                    src="https://www.dropbox.com/s/v97ubkd0nrdg69u/calc-social-preview.PNG?raw=1"
+                                    alt="calc-img">
+                                <p class="project-title">Calculator</p>
+                            </a>
+
+                            <a class="project-tile" href="https://kaushikdev.github.io/weather/" target="_blank">
+                                <img class="project-back-img"
+                                    src="https://www.dropbox.com/s/zw2ithg2vbe4wmy/weather-social-preview.PNG?raw=1"
+                                    alt="weather-img">
+                                <p class="project-title">Weather</p>
+                            </a>
+
+                            <a class="project-tile" href="https://kaushikdev.github.io/sketch/" target="_blank">
+                                <img class="project-back-img"
+                                    src="https://www.dropbox.com/s/1i17za8gmz3nxhz/sketch-social-preview.PNG?raw=1"
+                                    alt="sketch-img">
+                                <p class="project-title">Sketch</p>
+                            </a>
+                            <a class="project-tile" href="https://kaushikdev.github.io/dictionary/" target="_blank">
+                                <img class="project-back-img"
+                                    src="https://www.dropbox.com/s/skj85a3i0893gq1/dictionary-social-preview.PNG?raw=1"
+                                    alt="dictionary-img">
+                                <p class="project-title">Dictionary</p>
+                            </a>
+
+
+
+
+                    </div>
+                    
+             </div>
+            
+    
+            <div class="align-right project-room">
+                <h2 class="project-headings">Random Projects</h2>
+                <div class="grid-container">
+                   
+                   
+
+            <a class="project-tile" href="https://kaushikdev.github.io/pomodoro/" target="_blank">
                 <img class="project-back-img"
-                    src="https://www.dropbox.com/s/v97ubkd0nrdg69u/calc-social-preview.PNG?raw=1"
-                    alt="calc-img">
-                <p class="project-title">Calculator</p>
-            </a>
-
-            <a class="project-tile" href="https://kaushikdev.github.io/weather/" target="_blank">
-                <img class="project-back-img"
-                    src="https://www.dropbox.com/s/zw2ithg2vbe4wmy/weather-social-preview.PNG?raw=1"
-                    alt="weather-img">
-                <p class="project-title">Weather</p>
-            </a>
-
-            <a class="project-tile" href="https://kaushikdev.github.io/tictactoe/" target="_blank">
-                <img class="project-back-img"
-                    src="https://www.dropbox.com/s/aikq3t5h0lnaxmh/tictactoe-social-preview.PNG?raw=1"
-                    alt="tictactoe-img">
-                <p class="project-title">Tic-Tac-Toe</p>
-            </a>
-
-            <a class="project-tile" href="https://kaushikdev.github.io/quotes/" target="_blank">
-                <img class="project-back-img"
-                    src="https://www.dropbox.com/s/czpuej258iuxfti/quotes-social-preview.PNG?raw=1"
-                    alt="quotes-img">
-                <p class="project-title">Quotes</p>
+                    src="https://www.dropbox.com/s/y9tgoo0y155hh88/pomodoro-social-preview.PNG?raw=1"
+                    alt="pomodoro-img">
+                <p class="project-title">Pomodoro Timer</p>
             </a>
 
             <a class="project-tile" href="https://kaushikdev.github.io/tribute/" target="_blank">
@@ -82,37 +196,30 @@
                     alt="tribute-img">
                 <p class="project-title">Tribute</p>
             </a>
-
-            <a class="project-tile" href="https://codepen.io/Kaushik02/full/QXXJJg" target="_blank">
+            <a class="project-tile" href="https://kaushikdev.github.io/quotes/" target="_blank">
                 <img class="project-back-img"
-                    src="https://screenshot.codepen.io/525393.QXXJJg.small.cde9c7e5-5a0c-4dff-9d53-39ccc3f91394.png"
-                    alt="nightsky-img">
-                <p class="project-title">Clear Night</p>
+                    src="https://www.dropbox.com/s/czpuej258iuxfti/quotes-social-preview.PNG?raw=1"
+                    alt="quotes-img">
+                <p class="project-title">Quotes</p>
             </a>
-
-            <a class="project-tile" href="https://kaushikdev.github.io/dictionary/" target="_blank">
+            <a class="project-tile" href="https://kaushikdev.github.io/wiki/" target="_blank">
                 <img class="project-back-img"
-                    src="https://www.dropbox.com/s/skj85a3i0893gq1/dictionary-social-preview.PNG?raw=1"
-                    alt="dictionary-img">
-                <p class="project-title">Dictionary</p>
-            </a>
-
-            <a class="project-tile" href="https://kaushikdev.github.io/snake/" target="_blank">
-                <img class="project-back-img"
-                    src="https://www.dropbox.com/s/lazl4wgp4nyx63z/snake-social-preview.PNG?raw=1"
-                    alt="snake-img">
-                <p class="project-title">Classic Snake</p>
+                    src="https://www.dropbox.com/s/1vtp97ms549cw9v/wiki-social-preview.PNG?raw=1"
+                    alt="wiki-img">
+                <p class="project-title">Wiki Viewer</p>
             </a>
 
 
+            
+            
+                    </div>
+            </div>
 
-        </div>
-
-       
-        <a href="https://codepen.io/Kaushik02/" target="_blank"><input id="show-more" type="button" value="Show More"></a>
-
+            <div class="show">
+                    <a href="https://codepen.io/Kaushik02/" target="_blank" data-toggle="modal" data-target="#project-modal"><input id="show-more" type="button" value="Show More"></a>
+            </div>
+            
     </section>
-
 
     <section id="contact-section">
         <h2 id="contact-heading">Get in touch</h2>
@@ -127,6 +234,7 @@
             <a href="https://twitter.com/kaushik_said" target="_blank"><i class="fab fa-twitter"></i><span>Twitter</span></a>
             <a href="mailto:piyush.kaushik02@gmail.com?subject=Portfolio-Feedback&body=Hi Piyush,"><i class="far fa-envelope"></i><span>Email</span></a>
         </div>
+        <div class="top"><a href="#top-section"><i class="fa fa-long-arrow-up" aria-hidden="true"></i></a></div>
 
 
 
@@ -136,8 +244,64 @@
 
 
     <footer id="footer-section">
-            &copy; KaushikCodeArts 2019
+            &copy;2019 Piyush Kaushik. All rights reserved.
     </footer>
+
+    <!-- +++++++++++++++++Portfolio Modal+++++++++++++++++ -->
+  <div class="modal fade" id="project-modal" role="dialog">
+        <div class="modal-dialog">
+        
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Projects</h4>
+            </div>
+            <div class="modal-body">
+
+    <p>Animations :</p>   
+    <p><a href="https://kaushikdev.github.io/snowyday/" target="_blank" >Snowy Day</a></p>		
+    <p><a href="https://KaushikDev.github.io/sunnyday" target="_blank" >Sunny Day</a></p>
+    <p><a href="https://KaushikDev.github.io/rainyday" target="_blank" >Rainy Day</a></p>
+    <p><a href="https://kaushikdev.github.io/cloudyday/" target="_blank" >Cloudy Day</a></p>
+    <p><a href="https://KaushikDev.github.io/clearnight" target="_blank" >Clear Night</a></p>
+   
+
+     <p>Games :</p>   
+     <p><a href="https://kaushikdev.github.io/snake/" target="_blank" >Snake</a></p>		
+     <p><a href="https://KaushikDev.github.io/tictactoe" target="_blank" >Tic-Tac-Toe</a></p>
+     <p><a href="https://kaushikdev.github.io/arkanoid/" target="_blank" >Arkanoid</a></p>
+     <p><a href="https://KaushikDev.github.io/simon" target="_blank" >Simon Game</a></p>
+     <p><a href="https://kaushikdev.github.io/batcrash/" target="_blank" >Bat Crash</a></p>
+     <p><a href="https://kaushikdev.github.io/flappybird/" target="_blank" >Flappy Bird</a></p>
+     
+     <p>Utilities :</p> 
+     <p><a href="https://KaushikDev.github.io/weather" target="_blank" >Weather App</a></p> 
+     <p><a href="https://KaushikDev.github.io/calculator" target="_blank" >Electronic Calculator</a></p>
+     <p><a href="https://KaushikDev.github.io/dictionary" target="_blank" >Dictionary</a></p>	
+     <p><a href="https://KaushikDev.github.io/wiki" target="_blank" >Wiki Viewer</a></p>
+     <p><a href="https://KaushikDev.github.io/quotes" target="_blank" >Random Quotes</a></p>
+     <p><a href="https://KaushikDev.github.io/pomodoro" target="_blank" >Pomodoro Timer</a></p>
+     <p><a href="https://KaushikDev.github.io/sketch" target="_blank" >Sketch</a></p>
+       
+    
+     <p>Others :</p>
+     <p><a href="https://KaushikDev.github.io/blog" target="_blank" >Blog</a></p>
+     <p><a href="https://KaushikDev.github.io/techdoc" target="_blank" >Technical Docs</a></p>
+     <p><a href="https://KaushikDev.github.io/survey" target="_blank" >Survey Form</a></p>
+     <p><a href="https://KaushikDev.github.io/productlanding" target="_blank" >Product Landing</a></p>
+     <p><a href="https://KaushikDev.github.io/tribute" target="_blank" >Tribute</a></p>
+     <p><a href="https://KaushikDev.github.io/twitchTV" target="_blank" >Twitch TV JSON API</a></p>
+     <p><a href="https://KaushikDev.github.io/particleMotion" target="_blank" >Particle Motion</a></p>
+              </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+       <!-- +++++++++++++++++Portfolio Modal Ends Here+++++++++++++++++-->
 </body>
 
 </html>
