@@ -203,7 +203,8 @@ hr {
 
 .general > p > a {
   color: var(--normal-text-color);
-  animation: none;
+  text-decoration: underline;
+  /* animation: none; */
 }
 
 .general > p > a > i {
