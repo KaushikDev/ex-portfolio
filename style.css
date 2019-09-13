@@ -4,15 +4,16 @@
   /* ================================= */
   /* Text Colors */
   --main-heading-color: #666;
-  --sub-heading-color: #555;
+  --sub-heading-color: #333;
   --normal-text-color: #555;
   --special-text-color: #fff;
   --hover-text-color: #fff;
-  --span-text-color: #777;
+  --span-text-color: #222;
   --icon-color: #444;
+  --footer-text-color: #fff;
   /* Background Colors */
   --header-background-color: #eee;
-  --footer-background-color: #eee;
+  --footer-background-color: #000;
   --welcome-background-color: #fff;
   --about-background-color: #fff;
   --projects-background-color: #fff;
@@ -64,8 +65,8 @@
 * {
   padding: 0;
   margin: 0;
+ }
 
-}
 
 /* =================piyush image css begins===================*/
 #piyush-img {
@@ -111,7 +112,7 @@
 }
 
 .navlink {
-  padding: 30px;
+  padding: 20px;
   background: none;
 }
 
@@ -445,7 +446,7 @@ span {
   display: block;
   text-align: center;
   font-size: 1.2em;
-  color: var(--normal-text-color);
+  color: var(--footer-text-color);
 }
 
 /* =================footer section css ends===================*/
@@ -547,7 +548,7 @@ span {
   }
 
   .navlink {
-    padding: 30px;
+    padding: 20px;
   }
 
   .navlink > a {
@@ -744,7 +745,7 @@ span {
     display: block;
     text-align: center;
     font-size: 1em;
-    color: var(--normal-text-color);
+    color: var(--footer-text-color);
   }
 
   /* =================footer section css ends===================*/
@@ -795,7 +796,7 @@ span {
   }
 
   .navlink {
-    padding: 30px;
+    padding: 20px;
   }
 
   .navlink:hover {
@@ -997,7 +998,7 @@ span {
     display: block;
     text-align: center;
     font-size: 1.2em;
-    color: var(--normal-text-color);
+    color: var(--footer-text-color);
   }
 
   /* =================footer section css ends===================*/
