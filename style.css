@@ -13,12 +13,12 @@
   --footer-text-color: #fff;
   /* Background Colors */
   --header-background-color: #eee;
-  --footer-background-color: #000;
+  --footer-background-color: rgba(0,0,0,0.85);
   --welcome-background-color: #fff;
   --about-background-color: #fff;
   --projects-background-color: #fff;
   --contact-background-color: #fff;
-  --special-background-color: #222;
+  --special-background-color: #000;
   --hover-background-color: #fff;
   --show-background-color:#666;
   /* Other Colors */
@@ -78,6 +78,8 @@
   top: 0;
   left: 0;
   box-shadow: var(--normal-box-shadow);
+  opacity: 0;
+  animation: piyush-img 1s linear 1.2s 1 forwards;  
 }
 
 #piyush-img:hover {
@@ -146,6 +148,8 @@
   font-size: var(--main-heading-font-size);
   font-family: "Tangerine", cursive;
   color: var(--main-heading-color);
+  opacity: 0;
+    animation: welcome-heading 1s linear 1.5s 1 forwards;
 }
 
 hr {
@@ -158,6 +162,8 @@ hr {
   font-size: var(--sub-heading-font-size);
   font-family: var(--sub-heading-font-family);
   color: var(--sub-heading-color);
+  opacity: 0;
+  animation: welcome-sub-heading 1s linear 1.8s 1 forwards;
 
 }
 
@@ -169,6 +175,7 @@ hr {
   color: var(--icon-color);
   align-items: center;
   justify-content: center;
+  animation: skill-set 1s linear 2.1s 1 forwards;
 }
 
 #skill-set > i {
@@ -184,6 +191,11 @@ hr {
   animation-iteration-count: infinite;
 }
 
+
+#welcome-tagline{
+  opacity: 0;
+  animation: welcome-tagline 1s linear 2.4s 1 forwards;
+}
 /* =================welcome section css ends===================*/
 /* =================About section css begins===================*/
 
@@ -196,17 +208,18 @@ hr {
 }
 
 .general {
-  padding: 20px;
+  padding: 10px;
   margin: 20px;
   width: 60%;
   text-align: center;
   background: rgba(0,0,0, 0.03);
+  text-align: center;
+  border: 1px solid rgba(0,0,0, 0.05);
 }
 
 .general > p > a {
   color: var(--normal-text-color);
   text-decoration: underline;
-  /* animation: none; */
 }
 
 .general > p > a > i {
@@ -254,9 +267,10 @@ hr {
 .project-room {
     padding: 20px;
     margin: 20px;
-    width: 70%;
+    width: 80%;
     text-align: center;
     background: rgba(0,0,0,0.03);
+    border: 1px solid rgba(0,0,0, 0.05);
   }
 
   .align-left {
@@ -297,7 +311,7 @@ hr {
     height:auto;
     max-width:100%;
     text-decoration: none;
-    border: 2px var(--tile-border-color) double;
+    border: 10px var(--tile-border-color) double;
     background: var(--special-background-color);
   }
 
@@ -413,7 +427,7 @@ span {
   animation-iteration-count: infinite;
 }
 
-.top {
+/* .top {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -433,7 +447,7 @@ span {
   animation-name: blip;
   animation-duration: 2s;
   animation-iteration-count: infinite;
-}
+} */
 
 /* =================contacts section css ends===================*/
 /* =================footer section css begins===================*/
@@ -447,11 +461,42 @@ span {
   background: var(--footer-background-color);
   display: block;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1em;
   color: var(--footer-text-color);
 }
 
 /* =================footer section css ends===================*/
+/* Back To Top CSS */
+
+.back-to-top{
+  transition : all 0.25s ease-in-out;
+  background: rgba(0,0,0,0.75);
+  color : #fff;
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  bottom : 30px;
+  right: 20px;
+  font-weight: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  text-decoration: none;
+  }
+  
+  .hide{
+      visibility: hidden;
+      opacity : 0;
+  }
+  
+  .show{
+      visibility: visible;
+      opacity: 1;
+  }
+  
 /* =================All animations css begins===================*/
 
 @keyframes text-animation {
@@ -510,6 +555,38 @@ span {
   }
 }
 
+@keyframes piyush-img{
+  100%{
+      opacity: 1;
+  }
+}
+
+@keyframes welcome-heading{
+  100%{
+      opacity: 1;
+  }
+}
+
+@keyframes welcome-sub-heading{
+  100%{
+      opacity: 1;
+  }
+}
+
+
+@keyframes skill-set{
+  100%{
+      opacity: 1;
+  }
+}
+
+
+@keyframes welcome-tagline{
+  100%{
+      opacity: 1;
+  }
+}
+
 /* =================All animations css ends===================*/
 /* =================Media Queries css begins===================*/
 
@@ -524,6 +601,7 @@ span {
     top: 200px;
     left: 50%;
     transform: translate(-50%, -50%);
+    animation: piyush-img 1s linear 1.2s 1 forwards; 
   }
 
   /* =================piyush image css ends===================*/
@@ -571,6 +649,8 @@ span {
     padding-top: 10vh;
     font-size: 2.5em;
     color: var(--main-heading-color);
+    opacity: 0;
+    animation: welcome-heading 1s linear 1.5s 1 forwards;
   }
 
   hr {
@@ -582,6 +662,8 @@ span {
   #welcome-sub-heading {
     font-size: 1.5em;
     color: var(--sub-heading-color);
+    opacity: 0;
+    animation: welcome-sub-heading 1s linear 1.8s 1 forwards;
   }
 
   #skill-set {
@@ -591,6 +673,7 @@ span {
     align-items: center;
     justify-content: center;
     background: transparent;
+    animation: skill-set 1s linear 2.1s 1 forwards;
   }
 
   #skill-set > i {
@@ -606,6 +689,10 @@ span {
     animation-iteration-count: infinite;
   }
 
+  #welcome-tagline{
+    opacity: 0;
+    animation: welcome-tagline 1s linear 2.4s 1 forwards;
+  }
   /* =================welcome section css ends===================*/
   /* =================projects section css begins===================*/
 
@@ -718,6 +805,7 @@ span {
     top: 0;
     left: 0;
     box-shadow: var(--normal-box-shadow);
+    animation: piyush-img 1s linear 1.2s 1 forwards; 
   }
 
   #piyush-img:hover {
@@ -780,6 +868,8 @@ span {
     padding-top: 10vh;
     font-size: 5em;
     color: var(--normal-text-color);
+    opacity: 0;
+    animation: welcome-heading 1s linear 1.5s 1 forwards;
   }
 
   hr {
@@ -790,6 +880,8 @@ span {
 
   #welcome-sub-heading {
     font-size: 3em;
+    opacity: 0;
+   animation: welcome-sub-heading 1s linear 1.8s 1 forwards;
   }
 
   #skill-set {
@@ -799,6 +891,7 @@ span {
     align-items: center;
     justify-content: center;
     background: transparent;
+    animation: skill-set 1s linear 2.1s 1 forwards;
   }
 
   #skill-set > i {
@@ -813,7 +906,10 @@ span {
     animation-duration: 5s;
     animation-iteration-count: infinite;
   }
-
+  #welcome-tagline{
+    opacity: 0;
+    animation: welcome-tagline 1s linear 2.4s 1 forwards;
+  }
   /* =================welcome section css ends===================*/
   /* =================projects section css begins===================*/
 
@@ -902,7 +998,7 @@ span {
     background: var(--footer-background-color);
     display: block;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1em;
     color: var(--footer-text-color);
   }
 

@@ -39,7 +39,7 @@
             <i class="fab fa-js-square"></i>
             <i class="fab fa-css3-alt"></i>
         </div>
-        <p><em>"There are 3 things that keeps me going; Coffee, Pizza and Javascript."</em></p>
+        <p id="welcome-tagline"><em>"There are 3 things that keeps me going; Coffee, Pizza and Javascript."</em></p>
      </section>
 
      <section id="about-section">
@@ -231,7 +231,7 @@
             <a href="https://twitter.com/kaushik_said" target="_blank"><i class="fab fa-twitter"></i><span>Twitter</span></a>
             <a href="mailto:piyush.kaushik02@gmail.com?subject=Portfolio-Feedback&body=Hi Piyush,"><i class="far fa-envelope"></i><span>Email</span></a>
         </div>
-        <div class="top"><a href="#welcome-section"><i class="fa fa-long-arrow-up" aria-hidden="true"></i></a></div>
+        <!-- <div class="top"><a href="#welcome-section"><i class="fa fa-long-arrow-up" aria-hidden="true"></i></a></div> -->
 
 
 
@@ -243,6 +243,11 @@
     <footer id="footer-section">
             &copy;2019 Piyush Kaushik. All rights reserved.
     </footer>
+
+    <a id="back-to-top-btn" class="back-to-top hide"> 
+        <i class="fas fa-angle-up"></i>
+        <p><strong>TOP</strong></p>
+    </a>
 
     <!-- +++++++++++++++++Portfolio Modal+++++++++++++++++ -->
   <div class="modal fade" id="projectModal" role="dialog">
@@ -262,6 +267,7 @@
     <p><a href="https://KaushikDev.github.io/rainyday" target="_blank" >Rainy Day</a></p>
     <p><a href="https://kaushikdev.github.io/cloudyday/" target="_blank" >Cloudy Day</a></p>
     <p><a href="https://KaushikDev.github.io/clearnight" target="_blank" >Clear Night</a></p>
+    <p><a href="https://KaushikDev.github.io/bot" target="_blank" >Bot</a></p>
    
 
      <p>Games :</p>   
@@ -300,5 +306,29 @@
       </div>
        <!-- +++++++++++++++++Portfolio Modal Ends Here+++++++++++++++++-->
 </body>
-
+<script>
+    const scrollToTopBtn = document.getElementById("back-to-top-btn");
+    function checkScroll(){
+        let y = window.scrollY;
+        if(y>500){
+            scrollToTopBtn.className = "back-to-top show";
+        }
+        else {
+            scrollToTopBtn.className = "back-to-top hide";
+        }
+    }
+    window.addEventListener("scroll", checkScroll);
+    function takeMeToTheTop(){
+        //c is number of pixels we are from the top
+        const c = document.documentElement.scrollTop || document.body.scrollTop ;
+        if(c > 0){
+            window.requestAnimationFrame(takeMeToTheTop);
+            window.scrollTo(0, c-c/50); //the y coordinate controls the speed of scrolling back to top
+        }
+    }
+    scrollToTopBtn.onclick =  function(e){
+        e.preventDefault();
+        takeMeToTheTop();
+    }
+    </script>
 </html>
