@@ -1,0 +1,285 @@
+@media screen and (min-width: 300px) and (max-width:728px){
+ 
+
+
+    #brand-div{
+        z-index: 2;
+        top: 0;
+        right: 0;
+        position: fixed;
+        margin: 5px;
+        /* padding: 1em; */
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+    }
+    #brand-div > img{
+        width: 50px;
+        position: absolute;
+    }
+    
+    /* -------------------------------------- */
+    
+    header{
+background: #000;        
+        z-index: 1;
+        top: 0;
+        right: 0;
+        width: 100vw;
+        height: 15vh;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+    }  
+    
+    #navbar{
+        width: auto;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .nav-items{
+        list-style: none;
+        margin: 5px;
+        padding: 5px;
+    }
+    
+    .nav-items > a{
+       text-decoration: none;
+       color: lightskyblue;
+       font-size: 1em;
+    }
+    
+    .nav-items > a:hover{
+        text-decoration: none;
+        font-weight: bold;
+        color: #fff;
+        transition: all 0.25s ease-in-out;
+    }
+    
+    
+    
+    
+    /* --------------------------------------- */
+    
+    #home{
+        height: 100vh;
+        width: 100vw;
+        background: url("./assets/images/backgrounds/Home.png") no-repeat fixed center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #intro{
+        width: auto;
+        align-self: flex-start;
+        color: #fff;
+        font-size: 2em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+     }
+    
+     strong{
+        color: lightskyblue;
+     }
+    
+     #p1{
+        height: auto;
+        font-size: 2em;
+        transition: opacity 10s;
+        opacity: 0;
+        animation: p1 1s linear 1s 1 forwards;
+      }
+    
+     #p2{
+        height: auto;
+        font-size: 1em;
+        opacity: 0;
+        animation: p2 1s linear 1.5s 1 forwards;
+     }
+     #p3{
+        height: auto;
+        font-size: .75em;
+        opacity: 0;
+        animation: p3 1s linear 2s 1 forwards;
+     }
+     @keyframes p1{
+        100%{
+            opacity: 1;
+        }
+      }
+      @keyframes p2{
+        100%{
+            opacity: 1;
+        }
+      }
+      @keyframes p3{
+        100%{
+            opacity: 1;
+        }
+      }
+    
+    
+    
+     /* -------------------------------------------------- */
+    
+     #projects{
+         height: auto;
+         width: 100vw;
+         background: url("./assets/images/backgrounds/Projects.png") no-repeat fixed center;
+         background-size: cover;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+     }
+    
+     #grid-container{
+         width: 80vw;
+         margin: 1em;
+         padding: 1em;
+         display: grid;
+         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+         grid-auto-rows: minmax(250px, 1fr);
+         gap: 1em;
+     }
+    
+     .grid-item{
+        border: 5px solid #000;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-content: center;
+        background-size: cover;
+        }
+    
+        .grid-item:hover{
+            box-shadow: 1px 1px 10px #aaa;
+            transition: all 0.25s ease-in-out;
+        }
+      
+        .project1{
+            background: url("./assets/images/projects/budget.PNG") no-repeat center;
+          }
+        .project2{
+            background: url("./assets/images/projects/blog.PNG") no-repeat center;
+        }
+        .project3{
+            background: url("./assets/images/projects/weather.PNG") no-repeat center;
+        }
+        .project4{
+            background: url("./assets/images/projects/TickyBotClone.PNG") no-repeat center;
+        }
+        .project5{
+            background: url("./assets/images/projects/quotes.PNG") no-repeat center;
+        }
+    
+        .project-urls{
+            margin: 1em;
+            padding: 1em;
+        }
+    
+       
+        .grid-item > .project-urls > a{
+            background: #000;
+            margin: 1em;
+            padding: 1em;
+            text-decoration: none;
+            color: #fff;
+            font-size: auto;
+            border: 2px solid #999;
+        }
+    
+      
+    
+    
+     /* -------------------------------------------------- */
+     #about{
+        height: auto;
+        width: 100vw;
+        background: url("./assets/images/backgrounds/About.png") no-repeat fixed center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #about-dev{
+        margin: 1em;
+        padding: 1em;
+        width: 80vw;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .left-align{
+        align-self: flex-start;
+        }
+    .right-align{
+    align-self: flex-end;
+    }
+    
+    .about-dev-items{
+    width: 75%;
+    margin: 1em;
+    padding: 1em;
+    background: #000;
+    opacity: 0.5;
+    border: 2px solid #fff;
+    color: #fff;
+    }
+    
+      /* -------------------------------------------------- */
+    
+      #contact{
+        height: 100vh;
+        width: 100vw;
+        background: url("./assets/images/backgrounds/Contact.png") no-repeat fixed center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #contact > h1{
+        color: #fff;
+        margin: 1em;
+        font-size: 1em;
+    }
+    
+    #social > a{
+        text-decoration: none;
+        color: #fff;
+        margin: 1em;
+        font-size: 1em;
+    }
+    
+    
+    /* -------------------------------------------------- */
+    footer{
+        height: 10vh;
+        width: 100vw;
+        background: #000;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    footer > p{
+        color: #fff;
+        font-size: 1em;
+    }
+}
