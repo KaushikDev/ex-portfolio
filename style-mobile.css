@@ -8,11 +8,7 @@
         right: 0;
         position: fixed;
         margin: 5px;
-        /* padding: 1em; */
-        /* display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center; */
+       
     }
     #brand-div > img{
         width: 50px;
@@ -206,7 +202,7 @@ background: #000;
      #about{
         height: auto;
         width: 100vw;
-        background: url("./assets/images/backgrounds/mobile/AboutMobile.png") no-repeat fixed center;
+        background: url("./assets/images/backgrounds/web/About.png") no-repeat fixed center;
         background-size: cover;
         display: flex;
         flex-direction: column;
@@ -218,26 +214,19 @@ background: #000;
         margin: 1em;
         padding: 1em;
         width: 80vw;
-        height: 100%;
+        height: 90%;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     
-    .left-align{
-        align-self: flex-start;
-        }
-    .right-align{
-    align-self: flex-end;
-    }
-    
-    .about-dev-items{
-    width: 75%;
-    margin: 1em;
-    padding: 1em;
-    background: #000;
-    opacity: 0.5;
-    border: 2px solid #fff;
-    color: #fff;
+    #about-dev > p{
+        padding: 1em;
+        background: #000;
+        opacity: 0.75;
+        border: 1px solid #fff;
+        color: #fff;
     }
     
       /* -------------------------------------------------- */
