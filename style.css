@@ -81,7 +81,7 @@ header{
 #home{
     height: 100vh;
     width: 100vw;
-    background: url("./assets/images/backgrounds/Home.png") no-repeat fixed center;
+    background: url("./assets/images/backgrounds/web/Home.png") no-repeat fixed center;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -147,7 +147,7 @@ header{
  #projects{
      height: 100vh;
      width: 100vw;
-     background: url("./assets/images/backgrounds/Projects.png") no-repeat fixed center;
+     background: url("./assets/images/backgrounds/web/Projects.png") no-repeat fixed center;
      background-size: cover;
      display: flex;
      flex-direction: column;
@@ -218,7 +218,7 @@ header{
  #about{
     height: 100vh;
     width: 100vw;
-    background: url("./assets/images/backgrounds/About.png") no-repeat fixed center;
+    background: url("./assets/images/backgrounds/web/About.png") no-repeat fixed center;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -257,7 +257,7 @@ color: #fff;
   #contact{
     height: 100vh;
     width: 100vw;
-    background: url("./assets/images/backgrounds/Contact.png") no-repeat fixed center;
+    background: url("./assets/images/backgrounds/web/Contact.png") no-repeat fixed center;
     background-size: cover;
     display: flex;
     flex-direction: column;

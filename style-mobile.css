@@ -69,7 +69,7 @@ background: #000;
     #home{
         height: 100vh;
         width: 100vw;
-        background: url("./assets/images/backgrounds/Home.png") no-repeat fixed center;
+        background: url("./assets/images/backgrounds/mobile/HomeMobile.png") no-repeat fixed center;
         background-size: cover;
         display: flex;
         flex-direction: column;
@@ -135,7 +135,7 @@ background: #000;
      #projects{
          height: auto;
          width: 100vw;
-         background: url("./assets/images/backgrounds/Projects.png") no-repeat fixed center;
+         background: url("./assets/images/backgrounds/mobile/ProjectsMobile.png") no-repeat fixed center;
          background-size: cover;
          display: flex;
          flex-direction: column;
@@ -206,7 +206,7 @@ background: #000;
      #about{
         height: auto;
         width: 100vw;
-        background: url("./assets/images/backgrounds/About.png") no-repeat fixed center;
+        background: url("./assets/images/backgrounds/mobile/AboutMobile.png") no-repeat fixed center;
         background-size: cover;
         display: flex;
         flex-direction: column;
@@ -245,7 +245,7 @@ background: #000;
       #contact{
         height: 100vh;
         width: 100vw;
-        background: url("./assets/images/backgrounds/Contact.png") no-repeat fixed center;
+        background: url("./assets/images/backgrounds/mobile/ContactMobile.png") no-repeat fixed center;
         background-size: cover;
         display: flex;
         flex-direction: column;
