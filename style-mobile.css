@@ -151,17 +151,39 @@ background: #000;
     
      .grid-item{
         border: 5px solid #000;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        align-content: center;
-        background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-size: cover;
         }
     
         .grid-item:hover{
             box-shadow: 1px 1px 10px #aaa;
             transition: all 0.25s ease-in-out;
         }
+
+        .project-urls{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .grid-item > .project-urls > a{
+            margin-bottom: 0;
+            width: 50%;
+            background: lightskyblue;
+            padding: 1em;
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            font-size: auto;
+            border: 1px solid #000;
+            text-align: center;
+        }
+    
       
         .project1{
             background: url("./assets/images/projects/budget.PNG") no-repeat center;
@@ -179,21 +201,7 @@ background: #000;
             background: url("./assets/images/projects/quotes.PNG") no-repeat center;
         }
     
-        .project-urls{
-            margin: 1em;
-            padding: 1em;
-        }
-    
-       
-        .grid-item > .project-urls > a{
-            background: #000;
-            margin: 1em;
-            padding: 1em;
-            text-decoration: none;
-            color: #fff;
-            font-size: auto;
-            border: 2px solid #999;
-        }
+      
     
       
     
