@@ -174,13 +174,13 @@ background: #000;
         .grid-item > .project-urls > a{
             margin-bottom: 0;
             width: 50%;
-            background: lightskyblue;
+            background: #000;
             padding: 1em;
             text-decoration: none;
-            color: #fff;
+            color: lightskyblue;
             font-weight: bold;
             font-size: auto;
-            border: 1px solid #000;
+            border: 1px solid #fff;
             text-align: center;
         }
     
@@ -195,7 +195,7 @@ background: #000;
             background: url("./assets/images/projects/weather.PNG") no-repeat center;
         }
         .project4{
-            background: url("./assets/images/projects/TickyBotClone.PNG") no-repeat center;
+            background: url("./assets/images/projects/tickybotclone.PNG") no-repeat center;
         }
         .project5{
             background: url("./assets/images/projects/quotes.PNG") no-repeat center;
@@ -210,7 +210,7 @@ background: #000;
      #about{
         height: auto;
         width: 100vw;
-        background: url("./assets/images/backgrounds/web/About.png") no-repeat fixed center;
+        background: url("./assets/images/backgrounds/mobile/AboutMobile.png") no-repeat fixed center;
         background-size: cover;
         display: flex;
         flex-direction: column;
