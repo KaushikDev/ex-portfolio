@@ -212,11 +212,15 @@ header{
         background: url("./assets/images/projects/weather.PNG") no-repeat center;
     }
     .project4{
-        background: url("./assets/images/projects/TickyBotClone.PNG") no-repeat center;
+        background: url("./assets/images/projects/arkanoid.PNG") no-repeat center;
     }
     .project5{
         background: url("./assets/images/projects/quotes.PNG") no-repeat center;
     }
+    .project6{
+        background: url("./assets/images/projects/TickyBotClone.PNG") no-repeat center;
+    }
+    
 
    
 
@@ -248,12 +252,14 @@ header{
 
 #about-dev > p{
     padding: 1em;
-    background: #000;
-    opacity: 0.75;
+    background: rgba(0,0,0,0.5);
     border: 1px solid #fff;
     color: #fff;
 }
 
+#about-dev > p > a{
+    color: #fff;
+}
 
 
   /* -------------------------------------------------- */
