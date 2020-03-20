@@ -48,14 +48,12 @@
     
     .nav-items > a{
        text-decoration: none;
-       color: lightskyblue;
+       color: #fff;
        font-size: 1em;
     }
     
     .nav-items > a:hover{
-        text-decoration: none;
-        font-weight: bold;
-        color: #fff;
+         color: #87cefa;
         transition: all 0.25s ease-in-out;
     }
     
@@ -164,27 +162,7 @@
             transition: all 0.25s ease-in-out;
         }
 
-        /* .project-urls{
-            width: 100%;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-evenly;
-            align-items: center;
-        }
-
-        .grid-item > .project-urls > a{
-            margin-bottom: 0;
-            width: 50%;
-            background: #000;
-            padding: 1em;
-            text-decoration: none;
-            color: lightskyblue;
-            font-weight: bold;
-            font-size: auto;
-            border: 1px solid #fff;
-            text-align: center;
-        }
-     */
+    
 
      .project-urls{
         width: 100%;
