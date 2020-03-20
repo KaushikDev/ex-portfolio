@@ -12,7 +12,6 @@ margin: 0;
 /* --------------------------------- */
 
 
-
 /* -------------------------------------- */
 
 header{
@@ -69,10 +68,10 @@ header{
   font-size: 1em;
 }
 
-.nav-items > a:hover{
+/* .nav-items > a:hover{
     color: #87cefa;
     transition: all 0.25s ease-in-out;
-}
+} */
 
 
 
@@ -315,3 +314,10 @@ footer > p{
     color: #fff;
     font-size: 1em;
 }
+
+/* ----------------------------------------------- */
+.active{
+    color: #87cefa !important;
+    
+}
+/* ------------------------------------------------- */
