@@ -17,7 +17,7 @@ margin: 0;
 
 header{
     z-index: 1;
-    background: rgba(0,0,0,0.05);
+    background: transparent;
     top: 0;
     right: 0;
     height: 100vh;
