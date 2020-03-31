@@ -318,7 +318,7 @@
     #brand-div{
         /* border: 1px solid red; */
         width: 100%;
-        height: auto;
+        height: 7vw;
         display: flex;
         flex-direction: column;
         justify-content: center;
