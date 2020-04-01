@@ -1,123 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Piyush Kaushik's Portfolio</title>
     <script src="./jquery-3.2.1.min.js"></script>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./style-mobile.css">
-    <link rel="stylesheet" href="./assets/font-awesome/css/all.css">
-
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style-mobile.css" />
+    <link rel="stylesheet" href="./assets/font-awesome/css/all.css" />
+  </head>
+  <body>
     <main>
-         
-        <header>
-            <div id="brand-div">
-                <img src="./assets/images/brand/BrandLogo.png" alt="">
+      <header>
+        <div id="brand-div">
+          <img src="./assets/images/brand/BrandLogo.png" alt="" />
+        </div>
+        <div id="navbar">
+          <li class="nav-items"><a href="#home">HOME</a></li>
+          <li class="nav-items"><a href="#projects">PROJECTS</a></li>
+          <li class="nav-items"><a href="#about">ABOUT</a></li>
+          <li class="nav-items"><a href="#contact">CONTACT</a></li>
+        </div>
+      </header>
+      <section id="home" class="container">
+        <div id="intro">
+          <p id="p1">Hello.</p>
+          <p id="p2">I am <strong>Piyush Kaushik.</strong></p>
+          <p id="p3">A <strong>frontend web developer.</strong></p>
+        </div>
+      </section>
+
+      <section id="projects" class="container">
+        <div id="grid-container">
+          <div class="grid-item project1">
+            <div class="project-urls">
+              <a href="https://kaushikdev.github.io/budget" target="_blank"
+                >View Live</a
+              >
             </div>
-            <div id="navbar">
-                    <li class="nav-items"><a href="#home">HOME</a></li>
-                    <li class="nav-items"><a href="#projects">PROJECTS</a></li>
-                    <li class="nav-items"><a href="#about">ABOUT</a></li>
-                    <li class="nav-items"><a href="#contact">CONTACT</a></li>
-             </div>
-           
-            
-        </header>
-        <section id="home" class="container">
-            <div id="intro">
-                <p id="p1">Hello.</p>
-                <p id="p2">I am <strong>Piyush Kaushik.</strong></p>
-                <p id="p3">A <strong>frontend web developer.</strong></p>
+          </div>
+
+          <div class="grid-item project2">
+            <div class="project-urls">
+              <a href="https://kaushikdev.github.io/blog/" target="_blank"
+                >View Live</a
+              >
             </div>
-          
-           
-        </section>
+          </div>
 
-        <section id="projects" class="container">
-            <div id="grid-container">
-                <div class="grid-item project1">
-                    <div class="project-urls">
-                        <!-- <a href="https://github.com/kaushikdev/budget" target="_blank">View Code</a> -->
-                        <a href="https://kaushikdev.github.io/budget" target="_blank">View Live</a>
-                    </div>
-                </div>
-
-                <div class="grid-item project2">
-                    <div class="project-urls">
-                        <!-- <a href="https://github.com/kaushikdev/blog" target="_blank">View Code</a> -->
-                        <a href="https://kaushikdev.github.io/blog/" target="_blank">View Live</a>
-                    </div>
-                </div>
-
-                <div class="grid-item project3">
-                    <div class="project-urls">
-                        <!-- <a href="https://github.com/kaushikdev/weather" target="_blank">View Code</a> -->
-                        <a href="https://kaushikdev.github.io/weather" target="_blank">View Live</a>
-                    </div>
-                </div>
-
-                <div class="grid-item project4">
-                    <div class="project-urls">
-                        <!-- <a href="https://github.com/kaushikdev/arkanoid" target="_blank">View Code</a> -->
-                        <a href="https://kaushikdev.github.io/arkanoid" target="_blank">View Live</a>
-                    </div>
-                </div>
-
-                <div class="grid-item project5">
-                    <div class="project-urls">
-                        <!-- <a href="https://github.com/kaushikdev/quotes" target="_blank">View Code</a> -->
-                        <a href="https://kaushikdev.github.io/quotes" target="_blank">View Live</a>
-                    </div>
-                </div>
-
-                <div class="grid-item project6">
-                    <div class="project-urls">
-                        <!-- <a href="https://github.com/kaushikdev/TickyBotClone" target="_blank">View Code</a> -->
-                        <a href="https://kaushikdev.github.io/TickyBotClone" target="_blank">View Live</a>
-                    </div>
-                </div>
-
+          <div class="grid-item project3">
+            <div class="project-urls">
+              <a href="https://kaushikdev.github.io/weather" target="_blank"
+                >View Live</a
+              >
             </div>
-        </section>
+          </div>
 
-        <section id="about" class="container">
-           
-            <div id="about-dev">
-                              
-                    <p>Hey, it is good to meet you. <br> Based out of Noida, India, I am passionate about learning front-end web development.<br> My definite goal in life is to give back to community in any manner possible <br>and I found web development may actually help me achieve this goal.<br><br>
-                
-                   With more than 6 years of experience in software testing domain,<br> I always felt like I could contribute more towards development and hence started to pursue my dream goal.<br> I know the road isn't easy, but overcoming challenges is what gives me satisfaction.<br> I strongly believe that there is nothing that you cannot learn and it is never too late to learn.<br> One of my favorite quotations is, "From humble beginnings come great things".<br><br>
-               
-                   I completed <a href="https://www.freecodecamp.org/certification/kaushikdev_/responsive-web-design" target="_blank">Responsive Web Design</a> and <a href="https://www.freecodecamp.org/certification/kaushikdev_/javascript-algorithms-and-data-structures" target="_blank">JavaScript Algorithms and Data Structures</a> certifications from FCC and <a href="https://www.udemy.com/certificate/UC-7SO9F3X9/" target="_blank">Javascript Basics</a> and <a href="https://www.udemy.com/certificate/UC-OJSZF3C0/" target="_blank">Javascript ES6</a> certifications from Udemy.<br> I am currently doing more FCC certifications and building projects along the way.<br> You're welcome to check out the projects section for projects I've built.<br> I am active on github and regularly build some fun stuff.<br><br>
-              
-               
-                    I have also started looking into UX design, with wireframing and prototyping of applications.<br> I have built some mockups and prototypes and they are hosted on Behance.<br> I am also looking forward to work on javascript frameworks like React.</p>
-                
+          <div class="grid-item project4">
+            <div class="project-urls">
+              <a href="https://kaushikdev.github.io/arkanoid" target="_blank"
+                >View Live</a
+              >
             </div>
-        </section>
+          </div>
 
-
-        <section id="contact" class="container">
-            <h1>Interested in working together? <strong>Contact me.</strong></h1>
-            <div id="social">
-                <a href="https://www.linkedin.com/in/piyush-kaushik-61166a22/"  target="_blank"><i
-                    class="fab fa-linkedin-in"></i></a>
-                <a href="https://twitter.com/kaushikDev_"  target="_blank"><i class="fab fa-twitter"></i></a>
-                <a href="https://github.com/KaushikDev" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.behance.net/piyushkaus9a25" target="_blank"><i class="fab fa-behance"></i></a>
-                <a href="mailto:piyush.kaushik02@gmail.com?subject=Portfolio-Feedback&body=Hi Piyush,"><i class="far fa-envelope"></i></a>
+          <div class="grid-item project5">
+            <div class="project-urls">
+              <a href="https://kaushikdev.github.io/quotes" target="_blank"
+                >View Live</a
+              >
             </div>
-        </section>
+          </div>
 
-        
-        <footer>
-            <p>&copy; Piyush Kaushik 2020. All rights reserved.</p>
-        </footer>
+          <div class="grid-item project6">
+            <div class="project-urls">
+              <a
+                href="https://kaushikdev.github.io/TickyBotClone"
+                target="_blank"
+                >View Live</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="container">
+        <div id="about-dev">
+          <p>
+            Hey, it is good to meet you. <br />
+            Based out of Noida, India, I am passionate about learning front-end
+            web development.<br />
+            My definite goal in life is to give back to community in any manner
+            possible <br />and I found web development may actually help me
+            achieve this goal.<br /><br />
+
+            With more than 6 years of experience in software testing domain,<br />
+            I always felt like I could contribute more towards development and
+            hence started to pursue my dream goal.<br />
+            I know the road isn't easy, but overcoming challenges is what gives
+            me satisfaction.<br />
+            I strongly believe that there is nothing that you cannot learn and
+            it is never too late to learn.<br />
+            One of my favorite quotations is, "From humble beginnings come great
+            things".<br /><br />
+
+            I completed
+            <a
+              href="https://www.freecodecamp.org/certification/kaushikdev_/responsive-web-design"
+              target="_blank"
+              >Responsive Web Design</a
+            >
+            and
+            <a
+              href="https://www.freecodecamp.org/certification/kaushikdev_/javascript-algorithms-and-data-structures"
+              target="_blank"
+              >JavaScript Algorithms and Data Structures</a
+            >
+            certifications from FCC and
+            <a
+              href="https://www.udemy.com/certificate/UC-7SO9F3X9/"
+              target="_blank"
+              >Javascript Basics</a
+            >
+            and
+            <a
+              href="https://www.udemy.com/certificate/UC-OJSZF3C0/"
+              target="_blank"
+              >Javascript ES6</a
+            >
+            certifications from Udemy.<br />
+            I am currently doing more FCC certifications and building projects
+            along the way.<br />
+            You're welcome to check out the projects section for projects I've
+            built.<br />
+            I am active on github and regularly build some fun stuff.<br /><br />
+
+            I have also started looking into UX design, with wireframing and
+            prototyping of applications.<br />
+            I have built some mockups and prototypes and they are hosted on
+            Behance.<br />
+            I am also looking forward to work on javascript frameworks like
+            React.
+          </p>
+        </div>
+      </section>
+
+      <section id="contact" class="container">
+        <h1>Interested in working together? <strong>Contact me.</strong></h1>
+        <div id="social">
+          <a
+            href="https://www.linkedin.com/in/piyush-kaushik-61166a22/"
+            target="_blank"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a href="https://twitter.com/kaushikDev_" target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="https://github.com/KaushikDev" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://www.behance.net/piyushkaus9a25" target="_blank"
+            ><i class="fab fa-behance"></i
+          ></a>
+          <a
+            href="mailto:piyush.kaushik02@gmail.com?subject=Portfolio-Feedback&body=Hi Piyush,"
+            ><i class="far fa-envelope"></i
+          ></a>
+        </div>
+      </section>
+
+      <footer>
+        <p>&copy; Piyush Kaushik 2020. All rights reserved.</p>
+      </footer>
     </main>
-</body>
-<script src="main.js"></script>
+  </body>
+  <script src="main.js"></script>
 </html>
