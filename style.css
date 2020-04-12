@@ -195,6 +195,7 @@ header{
         border: 2px solid #fff;
         border-radius: 2rem;
         text-align: center;
+        outline: none;
     }
 
 
