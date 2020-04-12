@@ -74,7 +74,7 @@
   }
 
   strong {
-    color: #0095dd;
+    color: #64B5F6;
   }
 
   #p1 {
@@ -161,10 +161,10 @@
 
   .grid-item > .project-urls > a {
      width: 50%;
-    background: #000;
+    background: transparent;
     padding: 1rem;
     text-decoration: none;
-    color: #0095dd;
+    color: #fff;
     font-size: 1rem;
     border: 2px solid #fff;
     border-radius: 2rem;
@@ -351,7 +351,7 @@
   }
 
   strong {
-    color: #0095dd;
+    color: #64B5F6;
   }
 
   #p1 {
@@ -442,7 +442,7 @@
     background: #000;
     padding: 1rem;
     text-decoration: none;
-    color: #0095dd;
+    color: #64B5F6;
     font-size: 1rem;
     border: 2px solid #fff;
     border-radius: 2rem;
