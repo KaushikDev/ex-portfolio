@@ -40,7 +40,7 @@
     justify-content: center;
   }
   header .brand .brand__logo {
-    width: 2rem;
+    width: 2.5rem;
   }
   header .navbar {
     width: 100%;
@@ -130,7 +130,7 @@
   }
   main .home .intro .intro__para {
     color: #fff;
-    margin: 0.25rem;
+    margin: 1rem 0;
   }
   main .home .intro .intro__para strong {
     color: #0095dd;
@@ -148,7 +148,7 @@
     animation: p2 1s linear 1.5s 1 forwards;
   }
   main .home .intro #p3 {
-    font-size: 1rem;
+    font-size: 1.5rem;
     opacity: 0;
     -webkit-animation: p3 1s linear 2s 1 forwards;
     animation: p3 1s linear 2s 1 forwards;
