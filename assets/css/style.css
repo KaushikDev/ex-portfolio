@@ -1,0 +1,480 @@
+@font-face {
+  src: url("./../assets/fonts/Montserrat-Regular.ttf");
+  font-family: "Montserrat";
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 10vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+header .brand {
+  padding: 1rem;
+  width: 100%;
+  justify-self: flex-start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+header .brand .brand__logo {
+  width: 3rem;
+}
+
+header .navbar {
+  width: 100%;
+  height: 100%;
+  justify-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+header .navbar .navbar__nav {
+  margin: 1.5rem 0;
+  list-style: none;
+}
+
+header .navbar .navbar__nav .navbar__nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+footer {
+  background: black;
+  max-width: 100vw;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+footer p {
+  color: #fff;
+}
+
+main {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+main .home {
+  padding: 1rem;
+  background: url("./../images/backgrounds/web/Home.png") no-repeat fixed center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+main .home .intro {
+  width: 80%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+main .home .intro .intro__para {
+  color: #fff;
+  margin: 2rem;
+}
+
+main .home .intro .intro__para strong {
+  color: #0095dd;
+}
+
+main .home .intro #p1 {
+  font-size: 10rem;
+  opacity: 0;
+  -webkit-animation: p1 1s linear 1s 1 forwards;
+  animation: p1 1s linear 1s 1 forwards;
+}
+
+main .home .intro #p2 {
+  font-size: 5rem;
+  opacity: 0;
+  -webkit-animation: p2 1s linear 1.5s 1 forwards;
+  animation: p2 1s linear 1.5s 1 forwards;
+}
+
+main .home .intro #p3 {
+  font-size: 3rem;
+  opacity: 0;
+  -webkit-animation: p3 1s linear 2s 1 forwards;
+  animation: p3 1s linear 2s 1 forwards;
+}
+
+@-webkit-keyframes p1 {
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes p1 {
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes p2 {
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes p2 {
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes p3 {
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes p3 {
+  100% {
+    opacity: 1;
+  }
+}
+
+main .projects {
+  background: url("./../images/backgrounds/web/Projects.png") no-repeat fixed center;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+main .projects .projects__grid {
+  padding: 1rem;
+  width: 80%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: minmax(200px, 1fr) 2rem minmax(200px, 1fr) 2rem minmax(200px, 1fr);
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  grid-auto-rows: minmax(200px, 1fr);
+  gap: 2rem;
+}
+
+main .projects .projects__grid .projects__grid-item {
+  padding: 1rem;
+  background: #000;
+  border: 10px solid #0095dd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+main .projects .projects__grid .projects__grid-item p {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+main .projects .projects__grid .projects__grid-item .projects__grid-item--link {
+  padding: 1rem;
+  background: transparent;
+  width: 50%;
+  border-radius: 2rem;
+  border: 2px solid #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+main .projects .projects__grid .projects__grid-item .projects__grid-item--link a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main .about {
+  background: url("./../images/backgrounds/web/About.png") no-repeat fixed center;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+main .about .about__dev-container {
+  width: 80%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+main .about .about__dev-container .about__dev {
+  margin: 1rem 0;
+  padding: 1rem;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: minmax(200px, 1fr) 1rem minmax(200px, 1fr) 1rem minmax(200px, 1fr);
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+  grid-auto-rows: minmax(200px, 1fr);
+  gap: 1rem;
+}
+
+main .about .about__dev-container .about__dev .about__dev-info {
+  padding: 1rem;
+  background: #0095dd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+main .about .about__dev-container .about__dev .about__dev-info i {
+  font-size: 5rem;
+  color: #fff;
+}
+
+main .about .about__dev-container .about__dev .about__dev-info p {
+  font-size: 1rem;
+  color: #fff;
+}
+
+main .about .about__dev-container .about__skills {
+  margin: 1rem 0;
+  padding: 1rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+main .about .about__dev-container .about__skills i {
+  font-size: 3rem;
+  color: #fff;
+}
+
+main .about .about__dev-container .about__skills .noob {
+  font-style: normal;
+  font-weight: bold;
+}
+
+main .about .about__dev-container .about__quote {
+  margin: 1rem 0;
+  padding: 1rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+main .about .about__dev-container .about__quote p {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+main .contact {
+  background: url("./../images/backgrounds/web/Contact.png") no-repeat fixed center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+main .contact h1 {
+  color: #fff;
+}
+
+main .contact h1 strong {
+  color: #0095dd;
+}
+
+main .contact .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+main .contact .social a {
+  color: #fff;
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+/*# sourceMappingURL=style.css.map */
