@@ -216,7 +216,7 @@
   main .projects .projects__grid .projects__grid-item {
     padding: 0.5rem;
     background: #000;
-    border: 5px solid #0095dd;
+    border: 10px solid #0095dd;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -328,6 +328,14 @@
   main .about .about__dev-container .about__dev .about__dev-info p {
     font-size: 0.9rem;
     color: #fff;
+  }
+  main .about .about__dev-container .about__dev .about__dev-info p i {
+    font-size: 0.9 0.5rem;
+    margin: 0 0.5rem;
+  }
+  main .about .about__dev-container .about__dev .about__dev-info p .noob {
+    font-style: normal;
+    font-weight: bold;
   }
   main .about .about__dev-container .about__skills {
     margin: 0.25rem 0;
@@ -626,11 +634,11 @@
   }
   main .projects .projects__grid {
     padding: 1rem;
-    width: 70%;
+    width: 80%;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    -ms-grid-columns: (minmax(200px, 1fr))[2];
+        grid-template-columns: repeat(2, minmax(200px, 1fr));
     grid-auto-rows: minmax(200px, 1fr);
     gap: 1rem;
   }
@@ -654,12 +662,12 @@
   }
   main .projects .projects__grid .projects__grid-item p {
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   main .projects .projects__grid .projects__grid-item .projects__grid-item--link {
     padding: 1rem;
     background: transparent;
-    width: 50%;
+    width: 65%;
     border-radius: 1rem;
     border: 2px solid #fff;
     display: -webkit-box;
@@ -723,8 +731,8 @@
     width: 100%;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: minmax(200px, 1fr) 1rem minmax(200px, 1fr) 1rem minmax(200px, 1fr);
-    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    -ms-grid-columns: minmax(200px, 1fr) 1rem minmax(200px, 1fr);
+    grid-template-columns: repeat(2, minmax(200px, 1fr));
     grid-auto-rows: minmax(200px, 1fr);
     gap: 1rem;
   }
@@ -749,6 +757,14 @@
   main .about .about__dev-container .about__dev .about__dev-info p {
     font-size: 1rem;
     color: #fff;
+  }
+  main .about .about__dev-container .about__dev .about__dev-info p i {
+    font-size: 1rem;
+    margin: 0 1rem;
+  }
+  main .about .about__dev-container .about__dev .about__dev-info p .noob {
+    font-style: normal;
+    font-weight: bold;
   }
   main .about .about__dev-container .about__skills {
     margin: 1rem 0;

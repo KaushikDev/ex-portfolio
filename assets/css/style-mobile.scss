@@ -234,7 +234,7 @@
             .projects__grid-item {
                 padding: 0.5rem;
               background: #000;
-              border: 5px solid #0095dd;
+              border: 10px solid #0095dd;
               display: -webkit-box;
               display: -ms-flexbox;
               display: flex;
@@ -353,6 +353,16 @@
                 p {
                   font-size: 0.9rem;
                   color: #fff;
+
+                  i{
+                    font-size: 0.9.5rem;
+                    margin: 0 0.5rem;
+                  }
+    
+                  .noob{
+                    font-style: normal;
+                    font-weight: bold;
+                  }
                 }
               }
             }
@@ -686,10 +696,10 @@
       
           .projects__grid {
             padding: 1rem;
-            width: 70%;
+            width: 80%;
             display: -ms-grid;
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-columns: repeat(2, minmax(200px, 1fr));
             grid-auto-rows: minmax(200px, 1fr);
             gap: 1rem;
       
@@ -713,13 +723,13 @@
       
               p {
                 color: #fff;
-                font-size: 1.5rem;
+                font-size: 1.2rem;
               }
       
               .projects__grid-item--link {
                 padding: 1rem;
                 background: transparent;
-                width: 50%;
+                width: 65%;
                 border-radius: 1rem;
                 border: 2px solid #fff;
                 display: -webkit-box;
@@ -789,8 +799,8 @@
               width: 100%;
               display: -ms-grid;
               display: grid;
-              -ms-grid-columns: minmax(200px, 1fr) 1rem minmax(200px, 1fr) 1rem minmax(200px, 1fr);
-              grid-template-columns: repeat(3, minmax(200px, 1fr));
+              -ms-grid-columns: minmax(200px, 1fr) 1rem minmax(200px, 1fr);
+              grid-template-columns: repeat(2, minmax(200px, 1fr));
               grid-auto-rows: minmax(200px, 1fr);
               gap: 1rem;
       
@@ -816,6 +826,16 @@
                 p {
                   font-size: 1rem;
                   color: #fff;
+
+                  i{
+                    font-size: 1rem;
+                    margin: 0 1rem;
+                  }
+    
+                  .noob{
+                    font-style: normal;
+                    font-weight: bold;
+                  }
                 }
               }
             }
