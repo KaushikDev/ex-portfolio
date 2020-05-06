@@ -135,7 +135,7 @@ main .home {
 
 main .home .intro {
   width: 80%;
-  height: 100%;
+  height: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -219,6 +219,8 @@ main .home .intro #p3 {
 
 main .home .social {
   padding: 1rem;
+  -ms-grid-column-align: center;
+  justify-self: flex-end;
   width: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -242,7 +244,7 @@ main .home .social a {
   margin: 0 1rem;
   text-decoration: none;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 @-webkit-keyframes social {
