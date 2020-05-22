@@ -22,7 +22,7 @@
     justify-content: flex-start;
   }
   header .brand {
-    padding: 0.5rem;
+    padding: 0.25rem;
     width: 100%;
     justify-self: flex-start;
     display: -webkit-box;
@@ -40,7 +40,7 @@
     justify-content: center;
   }
   header .brand .brand__logo {
-    width: 2.5rem;
+    width: 1.5rem;
   }
   header .navbar {
     width: 100%;
@@ -121,9 +121,9 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
     -webkit-box-align: start;
     -ms-flex-align: start;
     align-items: flex-start;
@@ -188,6 +188,7 @@
     -ms-grid-column-align: center;
     justify-self: center;
     width: auto;
+    height: 20%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -209,7 +210,7 @@
     margin: 0 1rem;
     text-decoration: none;
     color: #fff;
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   @-webkit-keyframes social {
     100% {
@@ -254,9 +255,7 @@
   main .projects .projects__grid .projects__grid-item {
     padding: 0.5rem;
     background: #000;
-    border: 10px solid #0095dd;
-    -webkit-box-shadow: 1px 1px 5px #aaa;
-    box-shadow: 1px 1px 5px #aaa;
+    border: 1px solid #fff;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -277,10 +276,9 @@
   }
   main .projects .projects__grid .projects__grid-item .projects__grid-item--link {
     padding: 0.5rem;
-    background: transparent;
+    background: #0095dd;
     width: 50%;
     border-radius: 1rem;
-    border: 1px solid #fff;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -478,7 +476,7 @@
     position: fixed;
     top: 0;
     right: 0;
-    width: 10vw;
+    width: 12vw;
     height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -657,6 +655,7 @@
     -ms-grid-column-align: center;
     justify-self: center;
     width: auto;
+    height: 20%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -678,7 +677,7 @@
     margin: 0 1rem;
     text-decoration: none;
     color: #fff;
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
   @-webkit-keyframes social {
     100% {
@@ -723,9 +722,7 @@
   main .projects .projects__grid .projects__grid-item {
     padding: 1rem;
     background: #000;
-    border: 10px solid #0095dd;
-    -webkit-box-shadow: 1px 1px 7px #aaa;
-    box-shadow: 1px 1px 7px #aaa;
+    border: 1px solid #fff;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -746,10 +743,9 @@
   }
   main .projects .projects__grid .projects__grid-item .projects__grid-item--link {
     padding: 1rem;
-    background: transparent;
+    background: #0095dd;
     width: 65%;
     border-radius: 1rem;
-    border: 2px solid #fff;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -767,6 +763,10 @@
   main .projects .projects__grid .projects__grid-item .projects__grid-item--link a {
     color: #fff;
     text-decoration: none;
+  }
+  main .projects .projects__grid .projects__grid-item:hover {
+    -webkit-box-shadow: 1px 1px 10px #aaa;
+    box-shadow: 1px 1px 10px #aaa;
   }
   main .about {
     background: url("./../images/backgrounds/tablet/AboutTablet.png") no-repeat fixed center;
@@ -937,7 +937,7 @@
   main .contact .contact__dev a {
     color: #fff;
     margin: 1rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 }
 /*# sourceMappingURL=style-mobile.css.map */

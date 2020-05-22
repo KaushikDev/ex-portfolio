@@ -222,6 +222,7 @@ main .home .social {
   -ms-grid-column-align: center;
   justify-self: flex-end;
   width: auto;
+  height: 10%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -244,7 +245,7 @@ main .home .social a {
   margin: 0 1rem;
   text-decoration: none;
   color: #fff;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 @-webkit-keyframes social {
@@ -293,10 +294,8 @@ main .projects .projects__grid {
 
 main .projects .projects__grid .projects__grid-item {
   padding: 1rem;
+  border: 1px solid #fff;
   background: #000;
-  border: 10px solid #0095dd;
-  -webkit-box-shadow: 1px 1px 10px #aaa;
-  box-shadow: 1px 1px 10px #aaa;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -319,10 +318,9 @@ main .projects .projects__grid .projects__grid-item p {
 
 main .projects .projects__grid .projects__grid-item .projects__grid-item--link {
   padding: 1rem;
-  background: transparent;
+  background: #0095dd;
   width: 50%;
   border-radius: 2rem;
-  border: 2px solid #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -341,6 +339,11 @@ main .projects .projects__grid .projects__grid-item .projects__grid-item--link {
 main .projects .projects__grid .projects__grid-item .projects__grid-item--link a {
   color: #fff;
   text-decoration: none;
+}
+
+main .projects .projects__grid .projects__grid-item:hover {
+  -webkit-box-shadow: 1px 1px 10px #aaa;
+  box-shadow: 1px 1px 10px #aaa;
 }
 
 main .about {
@@ -500,7 +503,7 @@ main .contact .contact__dev {
 
 main .contact .contact__dev a {
   color: #fff;
-  margin: 1rem;
-  font-size: 1.5rem;
+  margin: 1.5rem;
+  font-size: 2rem;
 }
 /*# sourceMappingURL=style.css.map */
